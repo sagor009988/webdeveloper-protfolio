@@ -10,9 +10,13 @@
     font-size: 20px;
     font-weight: 700;
     padding: 10px;
+    border: 0;
   }
 
 /* body style */
+.header-bg{
+    background-color: #FFF8F3;
+}
 .nav-title {
   color: #181818;
   font-size: 45px;
@@ -25,6 +29,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin:0px 150px;
 }
 
 nav > ul {
@@ -44,4 +49,13 @@ nav > ul > li {
 }
 .text-white{
     color: white;
+}
+.banner{
+    display: flex;
+    margin: 30px 30px 0px 150px;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 550px;
+    height: 550px;
 }
